@@ -1,0 +1,72 @@
+header,
+footer,
+h1,
+ul,
+p {
+    color: #333;
+    font-family: "Helvetica", sans-serif;
+}
+
+h1.hed {
+    font-weight: bold;
+    line-height: 50px;
+    letter-spacing: -2px;
+}
+
+footer {
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+svg {
+    font: 12px sans-serif;
+    /*display: block;
+    margin: auto; */
+}
+
+#circle circle {
+    fill: none;
+    pointer-events: all;
+}
+
+.group path {
+    fill-opacity: .75;
+}
+
+path.chord {
+    fill-opacity: .67;
+    stroke: #000;
+    stroke-width: .25px;
+}
+
+#circle:hover path.fade {
+    display: none;
+}
+
+p.explainer {
+    font-style: italic;
+}
+
+#top-bar-margin {
+    margin-bottom: 20px;
+}
+
+img.nav-logo {
+    height: 35px;
+    margin: 10px 10px 10px 0;
+    float: right;
+}
+
+.top-bar {
+    background-color: black !important;
+}
+
+li.name {
+    background-color: black;
+    list-style-type: none;
+}
