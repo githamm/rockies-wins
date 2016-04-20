@@ -1,26 +1,24 @@
-header,
-footer,
-h1,
-ul,
-p {
-    color: #333;
-    font-family: "Helvetica", sans-serif;
-}
-
 h1.hed {
     font-weight: bold;
     line-height: 50px;
     letter-spacing: -2px;
 }
 
-footer {
-    font-size: 12px;
-    font-style: italic;
-    text-align: right;
+h2.subhed {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 28px;
 }
 
-p {
-    line-height: 1.5em;
+p.article,
+ul.article {
+    font-size: 19px;
+}
+
+footer {
+    font-size: 16px;
+    font-style: italic;
+    text-align: right;
 }
 
 svg {
@@ -50,6 +48,8 @@ path.chord {
 
 p.explainer {
     font-style: italic;
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 #top-bar-margin {
@@ -58,8 +58,7 @@ p.explainer {
 
 img.nav-logo {
     height: 35px;
-    margin: 10px 10px 10px 0;
-    float: right;
+    margin: 10px 0px 0px 0px;
 }
 
 .top-bar {
@@ -69,4 +68,21 @@ img.nav-logo {
 li.name {
     background-color: black;
     list-style-type: none;
+}
+
+.social-icons {
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 14px;
+    margin-top: 0px;
+}
+
+@media (max-width: 500px) {
+    h1.hed {
+        font-size: 40px;
+        line-height: 42px;
+    } 
 }
